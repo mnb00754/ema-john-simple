@@ -13,7 +13,6 @@ import { AuthContextProvider, PrivateRoute } from "./components/Login/useAuth";
 import Shipment from "./components/Shipment/Shipment";
 
 function App() {
-  
   return (
     <div>
       <AuthContextProvider>
@@ -26,7 +25,7 @@ function App() {
             <Route path="/review">
               <Review></Review>
             </Route>
-            <Route path="/inventory">
+            <Route path="/orders">
               <Inventory></Inventory>
             </Route>
             <Route exact path="/">
